@@ -1,0 +1,313 @@
+.profile-bg-container {
+  background: #fafafa;
+  min-height: 100vh;
+}
+.profile-header-container {
+  border-bottom: 1px solid #c6c6c8;
+  display: flex;
+  justify-content: center;
+}
+.profile-sm-view-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .profile-sm-view-container {
+    display: none;
+  }
+}
+.profile-comp-username {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.profile-following-followers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.container-style-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-comp-profile-pic {
+  width: 96px;
+  height: 96px;
+  margin-top: 0px;
+}
+.text-style-one {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 0px;
+}
+.text-style-two {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+}
+.profile-user-id {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 0px;
+}
+.profile-user-bio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+}
+.profile-stories-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile-story-image {
+  height: 83px;
+  width: 83px;
+  border-radius: 40px;
+}
+.profile-stories-list-item {
+  height: 93px;
+  width: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c7c7cc;
+  border-radius: 40px;
+  margin: 5px;
+  background: #ffffff;
+}
+.profile-footer-container {
+  display: flex;
+  flex-direction: column;
+}
+.grid-icon-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  align-self: center;
+}
+.grid-icon {
+  height: 20px;
+  width: 20px;
+  color: #262626;
+}
+.posts-text-profile {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  margin-left: 10px;
+}
+.profile-posts-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .profile-posts-list-container {
+    margin-left: 70px;
+  }
+}
+.profile-post-list-item {
+  margin: 5px;
+}
+.profile-post-image {
+  height: 110px;
+  width: 110px;
+}
+@media screen and (min-width: 768px) {
+  .profile-post-image {
+    width: 330px;
+    height: 330px;
+  }
+}
+.profile-lg-view-container {
+  width: 90%;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .profile-lg-view-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.profile-profile-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lg-profile-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.lg-following-followers-container {
+  display: flex;
+  align-items: center;
+}
+.container-style-two {
+  display: flex;
+  align-items: center;
+}
+.lg-profile-image {
+  height: 180px;
+  width: 180px;
+}
+.lg-profile-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 0px;
+}
+.text-style-three {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+
+  color: #262626;
+  margin-right: 5px;
+}
+.text-style-four {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  margin-right: 50px;
+  color: #262626;
+}
+.lg-user-id {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262626;
+}
+.lg-user-bio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 665px;
+  color: #262626;
+}
+.profile-loading-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 20px;
+}
+.profile-failure-image {
+  width: 90%;
+  max-width: 560px;
+}
+.profile-failure-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+}
+.profile-try-again-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 8px;
+  width: 127px;
+  height: 48px;
+  background: #4094ef;
+  border-radius: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+.no-posts-view-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.camera-icon-container {
+  border: black 2px solid;
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.camera-icon {
+  height: 25px;
+  width: 25px;
+}
+.no-posts-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+}
+.profile-comp-profile-pic {
+  border-radius: 100px;
+}
+.lg-profile-image {
+  border-radius: 100px;
+}

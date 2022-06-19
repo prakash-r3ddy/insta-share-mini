@@ -1,0 +1,13 @@
+.list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+  border: none;
+  background-color: transparent;
+}
+.active-tab {
+  color: #4094ef;
+}

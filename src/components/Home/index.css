@@ -1,0 +1,124 @@
+.home-bg-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+.home-responsive-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .home-responsive-container {
+    width: 80%;
+  }
+}
+.story-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.react-slick-container {
+  padding: 40px;
+  margin-top: 10px;
+  border-bottom: 0.5px solid #c6c6c8;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .react-slick-container {
+    border-bottom: none;
+  }
+}
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slider {
+  display: flex;
+  margin-left: 10px;
+}
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: #4094ef;
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid #c6c6c8;
+}
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    border-bottom: none;
+  }
+}
+
+.products-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #c6c6c8;
+}
+@media screen and (min-width: 768px) {
+  .products-failure-container {
+    border-bottom: none;
+  }
+}
+.alert-icon {
+  height: 20px;
+  width: 20px;
+}
+.stories-failure-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+.stories-try-again-button {
+  width: 102px;
+  height: 32px;
+  background: #4094ef;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+}
+.user-story-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+}
+.user-posts-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+.posts-loader-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posts-failure-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
